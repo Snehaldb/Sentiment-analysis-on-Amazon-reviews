@@ -19,7 +19,7 @@ ps=PorterStemmer()
 vectorizer = TfidfVectorizer()
 stopwords=set(stopwords.words("english"))
 
-data=pd.read_csv('/Users/anjithakarattuthodi/Downloads/Dataset1.csv')
+data=pd.read_csv('/Users/snehal/Downloads/Dataset1.csv')
 data.head()
 
 
