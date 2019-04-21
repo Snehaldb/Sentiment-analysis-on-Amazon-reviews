@@ -26,7 +26,7 @@ def one_hot_encoding(x, size):
     return one_hot
 
 
-with open('/Users/anjithakarattuthodi/Downloads/Dataset2.json', 'rU') as f:
+with open('/Users/snehal/Downloads/Dataset2.json', 'rU') as f:
     data = f.readlines()
 data = map(lambda x: x.rstrip(), data)
 data_json_str = "[" + ",".join(data) + "]"
