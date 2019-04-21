@@ -19,7 +19,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 
-data=pd.read_csv('/Users/anjithakarattuthodi/Downloads/Dataset1.csv')
+data=pd.read_csv('/Users/snehal/Downloads/Dataset1.csv')
 data.head()
 
 data['Review comments']=data['Review comments'].str.replace("[^a-zA-Z#]", " ")
